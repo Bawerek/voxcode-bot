@@ -1,0 +1,6 @@
+{
+  "build": {
+    "builder": "paketobuildpacks/builder:base"
+  },
+  "start": "java -jar VoxCode-Bot-Java-1.0-SNAPSHOT.jar"
+}
