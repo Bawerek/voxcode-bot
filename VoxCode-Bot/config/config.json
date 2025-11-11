@@ -1,0 +1,106 @@
+{
+  "general": {
+    "token": "MTQzNDYwMzUyNjg0MzAxMTI1Ng.GSSd05.3Qa5nIbWCMDfJhm7PdK4DRT87sV2Vg-jiqtPkI",
+    "guildID": "ID twojego serwera",
+    "rankPermission": "1430607977588723778",
+    "dontHavePermission": "Brak uprawnien do tej komendy",
+    "status": "Stworzony Przez VoxCode",
+    "haveReaction": {},
+    "suggestionYes": {},
+    "suggestionNo": {}
+  },
+  "suggestion": {
+    "enable": true,
+    "channelSuggestion": "1430607978565996584",
+    "commandPanel": "!suggestion-panel",
+    "tittleEmbed": "Wiadomość",
+    "descriptionEmbed": "Dodana przez: ``%author%``\nTyp: ``%type%``\nTreść propozycji: ``%suggestion%``",
+    "imageEmbed": "https://i.imgur.com/nvSDdyF.jpeg",
+    "addedMessage": "Dodałeś swoją propozycje!"
+  },
+  "warn": {
+    "enable": true,
+    "commandWarn": "!warn",
+    "tittleEmbed": "Ostrzeżenie",
+    "descriptionEmbed": "Gracz %who% dostal ostrzezenie od %admin%",
+    "imageEmbed": "https://i.imgur.com/nvSDdyF.jpeg"
+  },
+  "partner": {
+    "enable": true,
+    "commandPanel": "!partner",
+    "addedRankID": "1430607977554907285"
+  },
+  "joinevent": {
+    "enable": true,
+    "channelID": "1430607977596977393",
+    "tittleEmbed": "Witamy!",
+    "descriptionEmbed": "Witamy cie %user% na VoxCode, mamy nadzieję że będzie u nas fajnie!",
+    "imageEmbed": "https://i.imgur.com/nvSDdyF.jpeg"
+  },
+  "leaveevent": {
+    "enable": false,
+    "channelID": "Kanal z wiadomosciami przy wyjsciu",
+    "tittleEmbed": "Zegnamy!"
+    "descriptionEmbed": "Zegnamy cie %user% z naszego discorda, szkoda ze opuszczasz.",
+    "imageEmbed": "https://i.imgur.com/nvSDdyF.jpeg"
+  },
+  "nitroevent": {
+    "enable": true,
+    "channelID": "1430607977999503380",
+    "tittleEmbed": "Nitro",
+    "descriptionEmbed": "Użytkownik %user% zaczął boostować ten serwer, dziekujemy za wsparcie!\nJuż mamy tyle boostow na serwerze: **%allboost%**",
+    "imageEmbed": "https://i.imgur.com/nvSDdyF.jpeg"
+  },
+  "statistic": {
+    "enable": false,
+    "userSizeVoiceChannelID": "ID kanalu z uzytkownikami online",
+    "userSizeFormat": "Uzytkownikow online: %size%",
+    "refreshTime": 300
+  },
+  "ticket": {
+    "enable": true,
+    "commandTicket": "!ticket-panel",
+    "categoryID": "1430607979966894207",
+    "tittleEmbed": "Centrum pomocy",
+    "descriptionEmbed": "Wybierz formę pomocy na dole aby utworzyć ticket! :)",
+    "imageEmbed": "https://i.imgur.com/nvSDdyF.jpeg",
+    "formatButtonMain": "W czym pomóc?",
+    "formatButtonOne": "🆘 Pomoc",
+    "formatButtonTwo": "🛒 Usługi",
+    "formatButtonThree": "🎁 Odbiór nagrody",
+    "createdTickettittleEmbed": "Stworzony ticket",
+    "createdTicketdescriptionEmbed": "Gracz %user% stworzyL ticketa, wyjaśnij administracji w czym jest problem, napewno ci pomogą!",
+    "createdTicketimageEmbed": "https://i.imgur.com/nvSDdyF.jpeg"
+  },
+  "verification": {
+    "enable": false,
+    "commandPanel": "!verification-panel",
+    "roleID": "Jaka range ma nadawac?",
+    "tittleEmbed": "Weryfikacja",
+    "descriptionEmbed": "Kliknij ponizej aby sie zweryfikowac na tym serwerze!",
+    "imageEmbed": "imgur",
+    "succesMessage": "Pomyslnie zweryfikowano konto!",
+    "errorMessage": "Posiadasz juz zweryfikowane konto!",
+    "buttonName": "Zweryfikuj sie!"
+  },
+  "broadcast": {
+    "enable": true,
+    "commandBc": "!bc",
+    "tittleEmbed": "Ogłoszenie",
+    "descriptionEmbed": "%message%",
+    "imageEmbed": "https://i.imgur.com/nvSDdyF.jpeg"
+  },
+  "registerall": {
+    "enable": false,
+    "veryficationRankID": "ID rangi ktorą ma nadawac"
+  },
+  "antylink": {
+    "enable": false,
+    "channelID": "ID kanalu z komunikatem dla administracji ze ktos wyslal link",
+    "rankID": "ID rangi ktora ignoruje zakaz",
+    "allowedHosts": [
+      "youtube.com",
+      "www.minetop.pl"
+    ]
+  }
+}
